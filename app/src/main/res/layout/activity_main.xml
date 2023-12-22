@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogIN Page"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:paddingLeft="65dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Enter your username" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:hint="Enter your password" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Login" />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#4D0F7B"
+        android:paddingHorizontal="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp" >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/reset"
+            android:layout_marginHorizontal="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            />
+
+        <Button
+            android:id="@+id/buttonRESET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:drawablePadding="6dp"
+            android:gravity="left|center"
+            android:height="60dp"
+            android:padding="6dp"
+            android:textColor="#fff"
+            android:background="@android:color/white"
+            android:text="Reset" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#4D0F7B"
+        android:paddingHorizontal="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp" >
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ok"
+            android:layout_marginHorizontal="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            />
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:drawablePadding="6dp"
+            android:gravity="left|center"
+            android:height="60dp"
+            android:padding="6dp"
+            android:textColor="#fff"
+            android:background="@android:color/white"
+            android:text="Ok" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

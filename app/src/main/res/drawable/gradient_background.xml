@@ -1,0 +1,37 @@
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--    <gradient-->
+<!--        android:startColor="#EEAECAB2"-->
+<!--        android:endColor="#B5D2D2D2"-->
+<!--        android:angle="45"/>-->
+
+<!--</shape>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <gradient
+                android:startColor="#EEAECAB2"
+                android:centerColor="00D4FF"
+                android:endColor="#EEAECAB2"
+                android:angle="15"
+                android:type="linear"/>
+        </shape>
+    </item>
+</layer-list>
+
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item android:id="@android:id/background">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <gradient-->
+<!--                android:centerX="0.5"-->
+<!--                android:centerY="0.5"-->
+<!--                android:startColor="#020024"-->
+<!--                android:centerColor="#461B57"-->
+<!--                android:endColor="#00D4FF"-->
+<!--                android:gradientRadius="100%"-->
+<!--                android:type="linear"/>-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--</layer-list>-->
