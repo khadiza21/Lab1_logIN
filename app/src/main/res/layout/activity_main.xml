@@ -97,7 +97,7 @@
             android:gravity="left|center"
             android:height="60dp"
             android:padding="6dp"
-            android:textColor="#fff"
+            android:textColor="#ffffff"
             android:background="@android:color/white"
             android:text="Reset" />
 
@@ -137,7 +137,7 @@
             android:gravity="left|center"
             android:height="60dp"
             android:padding="6dp"
-            android:textColor="#fff"
+            android:textColor="#ffffff"
             android:background="@android:color/white"
             android:text="Ok" />
 

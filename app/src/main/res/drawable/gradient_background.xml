@@ -12,7 +12,7 @@
         <shape>
             <gradient
                 android:startColor="#EEAECAB2"
-                android:centerColor="00D4FF"
+                android:centerColor="#0000D4FF"
                 android:endColor="#EEAECAB2"
                 android:angle="15"
                 android:type="linear"/>
